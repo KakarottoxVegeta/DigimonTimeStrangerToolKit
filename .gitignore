@@ -1,0 +1,72 @@
+# Digimon Time Stranger ToolKit - .gitignore
+# Guidelines: [VC-001], [VC-002]
+
+# Embedded Python runtime
+_internal/
+
+# Mod loader binaries
+Reloaded-II/
+
+# Original game data (read-only)
+Base/
+
+# Generated DLC output
+DLC/
+
+# Generated dsts-loader output
+dsts-loader/
+
+# Compiled executables
+*.exe
+!DSCSToolsCLI.exe
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Backup files
+backup/
+*.bak
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# Test outputs
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+*.zip
+*.tar.gz
+*.rar
+*.7z

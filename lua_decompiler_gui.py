@@ -2,6 +2,7 @@
 """
 Lua Decompiler GUI
 A user-friendly interface for unluac.jar to decompile Lua files
+Guidelines: [WF-003], [DW-003], [TS-002], [EH-001], [EH-002]
 """
 
 import sys

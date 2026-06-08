@@ -2,6 +2,7 @@
 MVGL Tools GUI
 A graphical interface for MVGLToolsCLI.exe
 Supports Digimon Story: Cyber Sleuth, Time Stranger, and The Hundred Line
+Guidelines: [WF-003], [TS-002], [EH-001], [EH-002], [PG-001]
 """
 
 import tkinter as tk

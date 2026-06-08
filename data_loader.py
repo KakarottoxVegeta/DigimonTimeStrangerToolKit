@@ -1,5 +1,6 @@
 """
 Data loader for DTS Creator - loads and parses .mbe directories and CSV files
+Guidelines: [WF-001], [WF-002], [WF-003], [WF-004], [EH-002], [EH-003], [PG-001]
 """
 
 import os

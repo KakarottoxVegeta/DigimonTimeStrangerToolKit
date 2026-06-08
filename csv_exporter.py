@@ -1,5 +1,6 @@
 """
 CSV Exporter for DTS Creator - handles exporting modified Digimon data back to CSV files
+Guidelines: [WF-001], [WF-002], [WF-010], [QG-002], [QG-003], [EH-002], [TS-002]
 """
 
 import csv

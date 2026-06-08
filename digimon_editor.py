@@ -1,5 +1,6 @@
 """
 DTS Creator - Digimon Editor GUI using PyQt6
+Guidelines: [WF-001], [WF-004], [WF-005], [WF-006], [WF-007], [WF-008], [WF-009], [WF-010], [EH-001], [PG-001]
 """
 
 import sys

@@ -1,3 +1,8 @@
+"""
+MBE Editor - Binary MBE file editor for Digimon Time Stranger
+Guidelines: [WF-003], [TS-002], [EH-002], [EH-003], [PG-001]
+"""
+
 import sys
 import os
 import struct
