@@ -1,0 +1,6 @@
+[submodule "external/MVGLTools"]
+	path = external/MVGLTools
+	url = https://github.com/SydMontague/MVGLTools.git
+[submodule "external/DSTS-Mod-Tool"]
+	path = external/DSTS-Mod-Tool
+	url = https://github.com/levi-soft/DSTS-Mod-Tool.git
