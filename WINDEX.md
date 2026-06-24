@@ -146,7 +146,9 @@ Project Root/
 4. Repack MBE if editing base game
 5. Export to DLC for distribution
 
-### [DW-003] Lua Modding
+### Unification
+- **Unified Entry Point**: `dts_launcher.py` launches all other tools and batch files. This is the primary entry point for the toolkit.
+- Run `python dts_launcher.py` first, then use it to launch `digimon_editor.py`, `MBE_Editor.py`, `lua_decompiler_gui.py`, `mvgl_tools_gui.py`, or batch launchers from one dashboard.
 1. Decompile with `Lua_Decompiler.bat` or `lua_decompiler_gui.py`
 2. Edit scripts in `LUA/patchlua/` or `LUA/alua/`
 3. Test via Reloaded-II mod loader

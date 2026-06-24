@@ -1,0 +1,4 @@
+ERROR: You need to specify exactly one argument
+
+[notice] A new release of pip is available: 25.3 -> 26.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
