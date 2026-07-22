@@ -8,9 +8,9 @@ This document defines the specialized agent roles for the Digimon Time Stranger 
 ## Agent Registry
 
 ### 🎖️ COMMANDER (Orchestrator)
-**Role**: High-level project management, swarm orchestration, enforcing system-wide standards
+**Role**: High-level project organization, dependency coordination, and system-wide standards enforcement
 **Guidelines**: [WF-001], [WF-002], [QG-001], [QG-002], [RC-001]
-**Tools**: `spawn_swarm`, `get_status`, `get_events`, `stamp_activity`
+**Tools**: `create_plan`, `run_plan`, `get_status`, `get_events`, `stamp_activity`
 **Responsibilities**:
 - Project initialization and planning
 - Task decomposition and delegation
@@ -127,11 +127,11 @@ This document defines the specialized agent roles for the Digimon Time Stranger 
 
 ---
 
-## Spawn Patterns
+## Coordination Patterns
 
 ### [SP-001] New Feature Development
 ```
-COMMANDER → spawn_swarm([
+COMMANDER → coordinated_plan([
   ARCHITECT: "Design data model for X",
   RESEARCH: "Analyze game format for X",
   CODE: "Implement X per spec",
@@ -142,7 +142,7 @@ COMMANDER → spawn_swarm([
 
 ### [SP-002] Bug Fix Cycle
 ```
-COMMANDER → spawn_swarm([
+COMMANDER → coordinated_plan([
   DEBUG: "Root cause analysis for issue #N",
   CODE: "Implement fix per DEBUG findings",
   TESTER: "Regression test fix",
@@ -152,7 +152,7 @@ COMMANDER → spawn_swarm([
 
 ### [SP-003] Format Reverse Engineering
 ```
-COMMANDER → spawn_swarm([
+COMMANDER → coordinated_plan([
   RESEARCH: "Deep dive MBE/Lua format",
   ARCHITECT: "Design parser data structures",
   CODE: "Implement loader/exporter",
@@ -162,7 +162,7 @@ COMMANDER → spawn_swarm([
 
 ### [SP-004] Release Preparation
 ```
-COMMANDER → spawn_swarm([
+COMMANDER → coordinated_plan([
   CODE: "Final bug fixes & optimization",
   TESTER: "Full regression suite",
   PACKAGER: "Build & package release",

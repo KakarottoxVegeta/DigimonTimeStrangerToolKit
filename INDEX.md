@@ -14,7 +14,7 @@
 | `digimon_editor.spec` | PyInstaller spec for bundling the main editor. |
 | `UTILITIES.md` | Full reference for all tools, launchers, executables, and dependency graph. |
 | `WINDEX.md` | Global workflow guidelines for the project. |
-| `AGENTS.md` | Delegated project instructions for agents working in this repo. |
+| `AGENTS.md` | Project roles and coordination patterns using supported plan/task tools. |
 | `decompile_lua.bat` | Launcher for Lua decompilation. |
 | `Lua_Decompiler.bat` | Alternative Lua decompiler launcher. |
 | `Launch_MVGL_GUI.bat` | Launcher for MVGL Tools GUI. |
